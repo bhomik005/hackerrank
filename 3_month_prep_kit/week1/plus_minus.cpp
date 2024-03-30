@@ -4,6 +4,7 @@
 using namespace std;
 
 void plusMinus(vector<int> arr) {
+  // O(n) time | O(1) space
   int p = 0, n = 0, z = 0;
   for(int num: arr) {
     if(num == 0) z++;
